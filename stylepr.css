@@ -1,0 +1,75 @@
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+        .left {
+            width: 20%;
+            padding-right: 20px;
+        }
+        .right {
+            width: 80%;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .text-right {
+            float: right;
+            text-align: right;
+            font-size: 24px;
+            font-weight: bold;
+            padding-top: 20px;
+        }
+        .title-center {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .signature {
+            font-size: 20px;
+            margin-top: 10px;
+            text-align: left;
+        }
+        .signature1 {
+            font-size: 20px;
+            margin-top: 10px;
+            text-align: left;
+        }
+        .details-container {
+            margin-top: 40px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: space-between; /* Ensure space between details and beneficiary */
+        }
+        .details-left {
+            width: 100%; /* Make details table full-width */
+            padding-right: 20px;
+        }
+        .beneficiary-container {
+            margin-top: 20px;
+            float: right;
+            width: 100%;
+        }
+        .beneficiary-table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .beneficiary-table th, .beneficiary-table td {
+            padding: 6px 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+ 
